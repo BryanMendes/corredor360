@@ -4,5 +4,8 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: "Assets/Scenes/esse \xE9 o bom.unity"
+    guid: 57973019237cf0b4785fc6f202a201e9
   m_configObjects: {}
