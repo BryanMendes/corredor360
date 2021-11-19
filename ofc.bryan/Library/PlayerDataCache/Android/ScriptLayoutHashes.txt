@@ -1,6 +1,6 @@
 Android
 PlayerPath?
-C:/Users/brenn/Desktop/corredor360/ofc.bryan/Temp/castle.apk
+C:/Users/brenn/Desktop/corredor360/ofc.bryan/Temp/Bryan_castle.apk
 SceneListBegin?
 Assets/Scenes/esse é o bom.unity
 SceneListEnd?

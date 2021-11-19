@@ -1,0 +1,615 @@
+fileFormatVersion: 2
+guid: d82f3866106b2964db5eb9e29bdc27e1
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Back_End
+    100002: Back_End 1
+    100004: Belly_Back
+    100006: Belly_Back 1
+    100008: Belly_Front
+    100010: Belly_Front 1
+    100012: BL_Foot.L
+    100014: BL_Foot.L 1
+    100016: BL_Foot.R
+    100018: BL_Foot.R 1
+    100020: BL_Knee_CTRL.L
+    100022: BL_Knee_CTRL.L_end
+    100024: BL_Knee_CTRL.R
+    100026: BL_Knee_CTRL.R_end
+    100028: BL_Shin.L
+    100030: BL_Shin.L 1
+    100032: BL_Shin.R
+    100034: BL_Shin.R 1
+    100036: BL_Tigh.L
+    100038: BL_Tigh.L 1
+    100040: BL_Tigh.R
+    100042: BL_Tigh.R 1
+    100044: BL_Toe_LB.L
+    100046: BL_Toe_LB.L 1
+    100048: BL_Toe_LB.R
+    100050: BL_Toe_LB.R 1
+    100052: BL_Toe_LF.L
+    100054: BL_Toe_LF.L 1
+    100056: BL_Toe_LF.L_end
+    100058: BL_Toe_LF.L_end 1
+    100060: BL_Toe_LF.R
+    100062: BL_Toe_LF.R 1
+    100064: BL_Toe_LF.R_end
+    100066: BL_Toe_LF.R_end 1
+    100068: BL_Toe_MB.L
+    100070: BL_Toe_MB.L 1
+    100072: BL_Toe_MB.R
+    100074: BL_Toe_MB.R 1
+    100076: BL_Toe_MF.L
+    100078: BL_Toe_MF.L 1
+    100080: BL_Toe_MF.L_end
+    100082: BL_Toe_MF.L_end 1
+    100084: BL_Toe_MF.R
+    100086: BL_Toe_MF.R 1
+    100088: BL_Toe_MF.R_end
+    100090: BL_Toe_MF.R_end 1
+    100092: BL_Toe_RB.L
+    100094: BL_Toe_RB.L 1
+    100096: BL_Toe_RB.R
+    100098: BL_Toe_RB.R 1
+    100100: BL_Toe_RF.L
+    100102: BL_Toe_RF.L 1
+    100104: BL_Toe_RF.L_end
+    100106: BL_Toe_RF.L_end 1
+    100108: BL_Toe_RF.R
+    100110: BL_Toe_RF.R 1
+    100112: BL_Toe_RF.R_end
+    100114: BL_Toe_RF.R_end 1
+    100116: Camera
+    100118: Chest_Back
+    100120: Chest_Back 1
+    100122: Chest_Front
+    100124: Chest_Front 1
+    100126: //RootNode
+    100128: Chupcabra_Rig_IK
+    100130: Chupcabra_Rig_IK.001
+    100132: Cube
+    100134: Ear_B.L
+    100136: Ear_B.L 1
+    100138: Ear_B.R
+    100140: Ear_B.R 1
+    100142: Ear_T.L
+    100144: Ear_T.L 1
+    100146: Ear_T.L_end
+    100148: Ear_T.L_end 1
+    100150: Ear_T.R
+    100152: Ear_T.R 1
+    100154: Ear_T.R_end
+    100156: Ear_T.R_end 1
+    100158: Eye.L
+    100160: Eye.L 1
+    100162: Eye.L_end
+    100164: Eye.L_end 1
+    100166: Eye.R
+    100168: Eye.R 1
+    100170: Eye.R_end
+    100172: Eye.R_end 1
+    100174: Eye_Control
+    100176: Eye_Control 1
+    100178: Eye_Control_end
+    100180: Eye_Control_end 1
+    100182: Eye_Track.L
+    100184: Eye_Track.L 1
+    100186: Eye_Track.L_end
+    100188: Eye_Track.L_end 1
+    100190: Eye_Track.R
+    100192: Eye_Track.R 1
+    100194: Eye_Track.R_end
+    100196: Eye_Track.R_end 1
+    100198: FL_Elbow_CTRL.L
+    100200: FL_Elbow_CTRL.L_end
+    100202: FL_Elbow_CTRL.R
+    100204: FL_Elbow_CTRL.R_end
+    100206: FL_Foot.L
+    100208: FL_Foot.L 1
+    100210: FL_Foot.R
+    100212: FL_Foot.R 1
+    100214: FL_Shin.L
+    100216: FL_Shin.L 1
+    100218: FL_Shin.R
+    100220: FL_Shin.R 1
+    100222: FL_Tigh.L
+    100224: FL_Tigh.L 1
+    100226: FL_Tigh.R
+    100228: FL_Tigh.R 1
+    100230: FL_Toe_LB.L
+    100232: FL_Toe_LB.L 1
+    100234: FL_Toe_LB.R
+    100236: FL_Toe_LB.R 1
+    100238: FL_Toe_LF.L
+    100240: FL_Toe_LF.L 1
+    100242: FL_Toe_LF.L_end
+    100244: FL_Toe_LF.L_end 1
+    100246: FL_Toe_LF.R
+    100248: FL_Toe_LF.R 1
+    100250: FL_Toe_LF.R_end
+    100252: FL_Toe_LF.R_end 1
+    100254: FL_Toe_MB.L
+    100256: FL_Toe_MB.L 1
+    100258: FL_Toe_MB.R
+    100260: FL_Toe_MB.R 1
+    100262: FL_Toe_MF.L
+    100264: FL_Toe_MF.L 1
+    100266: FL_Toe_MF.L_end
+    100268: FL_Toe_MF.L_end 1
+    100270: FL_Toe_MF.R
+    100272: FL_Toe_MF.R 1
+    100274: FL_Toe_MF.R_end
+    100276: FL_Toe_MF.R_end 1
+    100278: FL_Toe_RB.L
+    100280: FL_Toe_RB.L 1
+    100282: FL_Toe_RB.R
+    100284: FL_Toe_RB.R 1
+    100286: FL_Toe_RF.L
+    100288: FL_Toe_RF.L 1
+    100290: FL_Toe_RF.L_end
+    100292: FL_Toe_RF.L_end 1
+    100294: FL_Toe_RF.R
+    100296: FL_Toe_RF.R 1
+    100298: FL_Toe_RF.R_end
+    100300: FL_Toe_RF.R_end 1
+    100302: Head
+    100304: Head 1
+    100306: Hemi
+    100308: Jaw
+    100310: Jaw 1
+    100312: Jaw_end
+    100314: Jaw_end 1
+    100316: Lamp
+    100318: Lamp.001
+    100320: Lamp.002
+    100322: Leg_BL_IK.L
+    100324: Leg_BL_IK.L_end
+    100326: Leg_BL_IK.R
+    100328: Leg_BL_IK.R_end
+    100330: Leg_FL_IK.L
+    100332: Leg_FL_IK.L_end
+    100334: Leg_FL_IK.R
+    100336: Leg_FL_IK.R_end
+    100338: Lowpoly_textured
+    100340: Lowpoly_textured_2
+    100342: Master_CTRL
+    100344: Neck
+    100346: Neck 1
+    100348: Plane
+    100350: Point
+    100352: Point.001
+    100354: Point.002
+    100356: Position
+    100358: Position 1
+    100360: Spike_1
+    100362: Spike_1 1
+    100364: Spike_1_end
+    100366: Spike_1_end 1
+    100368: Spike_2
+    100370: Spike_2 1
+    100372: Spike_2_end
+    100374: Spike_2_end 1
+    100376: Spike_3
+    100378: Spike_3 1
+    100380: Spike_3_end
+    100382: Spike_3_end 1
+    100384: Spike_4
+    100386: Spike_4 1
+    100388: Spike_4_end
+    100390: Spike_4_end 1
+    100392: Spike_5
+    100394: Spike_5 1
+    100396: Spike_5_end
+    100398: Spike_5_end 1
+    100400: Spike_6
+    100402: Spike_6 1
+    100404: Spike_6_end
+    100406: Spike_6_end 1
+    100408: Spike_7
+    100410: Spike_7 1
+    100412: Spike_7_end
+    100414: Spike_7_end 1
+    100416: Spike_Rotate
+    100418: Spike_Rotate 1
+    100420: Spike_Rotate_end
+    100422: Spike_Rotate_end 1
+    100424: Spot
+    100426: Sun
+    100428: Tail_1
+    100430: Tail_1 1
+    100432: Tail_2
+    100434: Tail_2 1
+    100436: Tail_3
+    100438: Tail_3 1
+    100440: Tail_4
+    100442: Tail_4 1
+    100444: Tail_4_end
+    100446: Tail_4_end 1
+    100448: Tail_IK
+    100450: Tail_IK_end
+    100452: Tail_Position
+    100454: Tail_Position_end
+    400000: Back_End
+    400002: Back_End 1
+    400004: Belly_Back
+    400006: Belly_Back 1
+    400008: Belly_Front
+    400010: Belly_Front 1
+    400012: BL_Foot.L
+    400014: BL_Foot.L 1
+    400016: BL_Foot.R
+    400018: BL_Foot.R 1
+    400020: BL_Knee_CTRL.L
+    400022: BL_Knee_CTRL.L_end
+    400024: BL_Knee_CTRL.R
+    400026: BL_Knee_CTRL.R_end
+    400028: BL_Shin.L
+    400030: BL_Shin.L 1
+    400032: BL_Shin.R
+    400034: BL_Shin.R 1
+    400036: BL_Tigh.L
+    400038: BL_Tigh.L 1
+    400040: BL_Tigh.R
+    400042: BL_Tigh.R 1
+    400044: BL_Toe_LB.L
+    400046: BL_Toe_LB.L 1
+    400048: BL_Toe_LB.R
+    400050: BL_Toe_LB.R 1
+    400052: BL_Toe_LF.L
+    400054: BL_Toe_LF.L 1
+    400056: BL_Toe_LF.L_end
+    400058: BL_Toe_LF.L_end 1
+    400060: BL_Toe_LF.R
+    400062: BL_Toe_LF.R 1
+    400064: BL_Toe_LF.R_end
+    400066: BL_Toe_LF.R_end 1
+    400068: BL_Toe_MB.L
+    400070: BL_Toe_MB.L 1
+    400072: BL_Toe_MB.R
+    400074: BL_Toe_MB.R 1
+    400076: BL_Toe_MF.L
+    400078: BL_Toe_MF.L 1
+    400080: BL_Toe_MF.L_end
+    400082: BL_Toe_MF.L_end 1
+    400084: BL_Toe_MF.R
+    400086: BL_Toe_MF.R 1
+    400088: BL_Toe_MF.R_end
+    400090: BL_Toe_MF.R_end 1
+    400092: BL_Toe_RB.L
+    400094: BL_Toe_RB.L 1
+    400096: BL_Toe_RB.R
+    400098: BL_Toe_RB.R 1
+    400100: BL_Toe_RF.L
+    400102: BL_Toe_RF.L 1
+    400104: BL_Toe_RF.L_end
+    400106: BL_Toe_RF.L_end 1
+    400108: BL_Toe_RF.R
+    400110: BL_Toe_RF.R 1
+    400112: BL_Toe_RF.R_end
+    400114: BL_Toe_RF.R_end 1
+    400116: Camera
+    400118: Chest_Back
+    400120: Chest_Back 1
+    400122: Chest_Front
+    400124: Chest_Front 1
+    400126: //RootNode
+    400128: Chupcabra_Rig_IK
+    400130: Chupcabra_Rig_IK.001
+    400132: Cube
+    400134: Ear_B.L
+    400136: Ear_B.L 1
+    400138: Ear_B.R
+    400140: Ear_B.R 1
+    400142: Ear_T.L
+    400144: Ear_T.L 1
+    400146: Ear_T.L_end
+    400148: Ear_T.L_end 1
+    400150: Ear_T.R
+    400152: Ear_T.R 1
+    400154: Ear_T.R_end
+    400156: Ear_T.R_end 1
+    400158: Eye.L
+    400160: Eye.L 1
+    400162: Eye.L_end
+    400164: Eye.L_end 1
+    400166: Eye.R
+    400168: Eye.R 1
+    400170: Eye.R_end
+    400172: Eye.R_end 1
+    400174: Eye_Control
+    400176: Eye_Control 1
+    400178: Eye_Control_end
+    400180: Eye_Control_end 1
+    400182: Eye_Track.L
+    400184: Eye_Track.L 1
+    400186: Eye_Track.L_end
+    400188: Eye_Track.L_end 1
+    400190: Eye_Track.R
+    400192: Eye_Track.R 1
+    400194: Eye_Track.R_end
+    400196: Eye_Track.R_end 1
+    400198: FL_Elbow_CTRL.L
+    400200: FL_Elbow_CTRL.L_end
+    400202: FL_Elbow_CTRL.R
+    400204: FL_Elbow_CTRL.R_end
+    400206: FL_Foot.L
+    400208: FL_Foot.L 1
+    400210: FL_Foot.R
+    400212: FL_Foot.R 1
+    400214: FL_Shin.L
+    400216: FL_Shin.L 1
+    400218: FL_Shin.R
+    400220: FL_Shin.R 1
+    400222: FL_Tigh.L
+    400224: FL_Tigh.L 1
+    400226: FL_Tigh.R
+    400228: FL_Tigh.R 1
+    400230: FL_Toe_LB.L
+    400232: FL_Toe_LB.L 1
+    400234: FL_Toe_LB.R
+    400236: FL_Toe_LB.R 1
+    400238: FL_Toe_LF.L
+    400240: FL_Toe_LF.L 1
+    400242: FL_Toe_LF.L_end
+    400244: FL_Toe_LF.L_end 1
+    400246: FL_Toe_LF.R
+    400248: FL_Toe_LF.R 1
+    400250: FL_Toe_LF.R_end
+    400252: FL_Toe_LF.R_end 1
+    400254: FL_Toe_MB.L
+    400256: FL_Toe_MB.L 1
+    400258: FL_Toe_MB.R
+    400260: FL_Toe_MB.R 1
+    400262: FL_Toe_MF.L
+    400264: FL_Toe_MF.L 1
+    400266: FL_Toe_MF.L_end
+    400268: FL_Toe_MF.L_end 1
+    400270: FL_Toe_MF.R
+    400272: FL_Toe_MF.R 1
+    400274: FL_Toe_MF.R_end
+    400276: FL_Toe_MF.R_end 1
+    400278: FL_Toe_RB.L
+    400280: FL_Toe_RB.L 1
+    400282: FL_Toe_RB.R
+    400284: FL_Toe_RB.R 1
+    400286: FL_Toe_RF.L
+    400288: FL_Toe_RF.L 1
+    400290: FL_Toe_RF.L_end
+    400292: FL_Toe_RF.L_end 1
+    400294: FL_Toe_RF.R
+    400296: FL_Toe_RF.R 1
+    400298: FL_Toe_RF.R_end
+    400300: FL_Toe_RF.R_end 1
+    400302: Head
+    400304: Head 1
+    400306: Hemi
+    400308: Jaw
+    400310: Jaw 1
+    400312: Jaw_end
+    400314: Jaw_end 1
+    400316: Lamp
+    400318: Lamp.001
+    400320: Lamp.002
+    400322: Leg_BL_IK.L
+    400324: Leg_BL_IK.L_end
+    400326: Leg_BL_IK.R
+    400328: Leg_BL_IK.R_end
+    400330: Leg_FL_IK.L
+    400332: Leg_FL_IK.L_end
+    400334: Leg_FL_IK.R
+    400336: Leg_FL_IK.R_end
+    400338: Lowpoly_textured
+    400340: Lowpoly_textured_2
+    400342: Master_CTRL
+    400344: Neck
+    400346: Neck 1
+    400348: Plane
+    400350: Point
+    400352: Point.001
+    400354: Point.002
+    400356: Position
+    400358: Position 1
+    400360: Spike_1
+    400362: Spike_1 1
+    400364: Spike_1_end
+    400366: Spike_1_end 1
+    400368: Spike_2
+    400370: Spike_2 1
+    400372: Spike_2_end
+    400374: Spike_2_end 1
+    400376: Spike_3
+    400378: Spike_3 1
+    400380: Spike_3_end
+    400382: Spike_3_end 1
+    400384: Spike_4
+    400386: Spike_4 1
+    400388: Spike_4_end
+    400390: Spike_4_end 1
+    400392: Spike_5
+    400394: Spike_5 1
+    400396: Spike_5_end
+    400398: Spike_5_end 1
+    400400: Spike_6
+    400402: Spike_6 1
+    400404: Spike_6_end
+    400406: Spike_6_end 1
+    400408: Spike_7
+    400410: Spike_7 1
+    400412: Spike_7_end
+    400414: Spike_7_end 1
+    400416: Spike_Rotate
+    400418: Spike_Rotate 1
+    400420: Spike_Rotate_end
+    400422: Spike_Rotate_end 1
+    400424: Spot
+    400426: Sun
+    400428: Tail_1
+    400430: Tail_1 1
+    400432: Tail_2
+    400434: Tail_2 1
+    400436: Tail_3
+    400438: Tail_3 1
+    400440: Tail_4
+    400442: Tail_4 1
+    400444: Tail_4_end
+    400446: Tail_4_end 1
+    400448: Tail_IK
+    400450: Tail_IK_end
+    400452: Tail_Position
+    400454: Tail_Position_end
+    2000000: Camera
+    2100000: No Name
+    2100002: Combined_2048_Emit_eyes
+    2100004: Combined_2048_No_Normal
+    2100006: Combined_2048
+    2100008: Combined_2048_Black_spec
+    2100010: Lense
+    2100012: Material.001
+    2300000: Cube
+    2300002: Plane
+    3300000: Cube
+    3300002: Plane
+    4300000: Cube
+    4300002: Lowpoly_textured_2
+    4300004: Plane
+    7400000: Chupcabra_Rig_IK.001|CameraAction
+    7400002: Chupcabra_Rig_IK.001|Chupcabra_Rig_IKAction.001
+    7400004: Chupcabra_Rig_IK|CameraAction
+    7400006: Chupcabra_Rig_IK|Chupcabra_Rig_IKAction
+    7400008: Chupcabra_Rig_IK|Chupcabra_Rig_IKAction.001
+    7400010: Camera|CameraAction
+    9500000: //RootNode
+    10800000: Hemi
+    10800002: Lamp
+    10800004: Lamp.001
+    10800006: Lamp.002
+    10800008: Point
+    10800010: Point.001
+    10800012: Point.002
+    10800014: Spot
+    10800016: Sun
+    13700000: Lowpoly_textured
+    13700002: Lowpoly_textured_2
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Combined_2048
+    second: {fileID: 2100000, guid: 3a5d821998443f9498d93b172c9bbf10, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Combined_2048_Black_spec
+    second: {fileID: 2100000, guid: 183f2a7d1aba33b4db56287d4e956c8d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Combined_2048_Emit_eyes
+    second: {fileID: 2100000, guid: 8189eddc2cc10bd489d2786ba0bc29fd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Combined_2048_No_Normal
+    second: {fileID: 2100000, guid: 50c7bd9440f16974bb2bc2bc7e8666f5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lense
+    second: {fileID: 2100000, guid: b3d6965f165c36e408d00bf65046dd49, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.001
+    second: {fileID: 2100000, guid: 659e75193e897d44a8ed46dc2a76ff74, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: No Name
+    second: {fileID: 2100000, guid: f34b44f39371b9e41903a2eccb4950af, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
